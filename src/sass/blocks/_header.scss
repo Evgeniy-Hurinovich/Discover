@@ -1,0 +1,97 @@
+header{
+display: flex;
+min-height: 100px;
+box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.17);    
+justify-content: center;
+align-items: center;
+}
+.navigation{
+    display: flex; 
+    align-items:center;          
+    &__logo{
+        font-weight: bold;
+        font-size: 40px;
+        color: #FF014F;  
+        margin-right: 35px; 
+        &:hover{
+            transform: scale(1.25);
+            filter: contrast(110%) brightness(110%) saturate(150%);            
+            width: auto;
+            height: auto;
+            -o-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            -o-transform: rotate(720deg);
+            -ms-transform: rotate(720deg);
+            -moz-transform: rotate(720deg);
+            -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+            background: linear-gradient(177deg, #0B2349 33%, #0D61BC 85%, #8AA9D6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+input{
+width: 200px;
+height: 50px;
+border-radius: 30px;
+border: none;
+}
+.nav {
+font-size: 20px;
+color: #626770;
+text-decoration: none;  
+margin-left: 15px;
+margin-right: 15px;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.searching{
+    background: url(/img/Vector.png) no-repeat 170px;
+    background-color: rgba(52, 56, 66, 1);  
+    padding-left: 10px;   
+} 
+.nav_F{
+display: flex;
+justify-content: flex-end;
+margin: 0 auto;
+margin-right: 0; 
+text-decoration: none;
+}
+.home{
+width: 188px;
+margin-left: 37px;
+}
+.nav:hover{
+    color: #E2E2E3;
+}
+.contactUs{
+margin-right: 45px;
+}
+.btn {
+height: 50px;
+border: 2px solid #FF014F;
+border-radius: 30px;
+background:none   
+}
+.btn:hover{
+background-color:#FF014F;
+}
+.btnF{
+display: flex;
+justify-content: flex-end;
+margin: 0 auto;
+margin-right: 0;
+}
+.create{ 
+width: 107px;
+color: #FFFFFF;
+}
+.connectWallet{    
+width: 197px;
+color: #FFFFFF; 
+margin: 0 0 0 5px;
+}

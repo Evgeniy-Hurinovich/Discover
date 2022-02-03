@@ -1,0 +1,101 @@
+#futer{
+padding-top: 60px;
+padding-bottom: 40px;
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+    .logoFuter{
+    display: flex;
+    flex-direction: column;
+    //width: 250px;
+    }
+        #logo_Futer{
+            font-weight: bold;
+            font-size: 50px;
+            color: #FF014F;
+            margin-bottom: 20px;            
+            &:hover{
+                cursor: pointer;
+                transition: all .6s;
+                transform: scale(1.05);
+                filter: contrast(110%) brightness(110%) saturate(150%);        
+            }
+        }
+        #text_Futer{
+            //width: 277px;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: capitalize;
+            color: #C4C4C4;
+            margin-bottom: 30px;
+        }
+        ul.hr {
+        margin: 0; 
+        padding: 4px; 
+        }
+        ul.hr li {
+        display: inline;
+        margin-right: 22px;
+        }
+
+
+.titleFuter{ 
+font-size: 30px;
+line-height: 37px;
+margin-top: 0px;
+color: #FFFFFF;
+}
+.textListFuter{
+//width: 205px;
+font-size: 24px;
+line-height: 50px;
+}
+li {
+color: red; 
+}
+li span {
+color: #FFFFFF; 
+}
+#adressEmail,#Phone,#Email{
+width: 300px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 60px;
+color: #FFFFFF;  
+}
+#adressEmail:nth-child(1)::marker{
+content: "Address :  "; 
+}
+#Phone:nth-child(2)::marker{
+content: "Phone :     "; 
+}
+#Email:nth-child(3)::marker{
+content: "Email :       "; 
+}
+.InfirmationFuter{
+margin-left: 37px;
+}
+.contactData{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.cont{
+margin-left: 100px;
+}
+.lineFuter{
+height: 0px;
+border: 1px solid #C4C4C4;
+}
+#Text_Copyright{
+margin-top: 28px;
+margin-bottom: 28px;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+text-align: center;
+color: #FFFFFF;
+}

@@ -1,0 +1,86 @@
+.сreatSall{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-top: 77px;
+}
+.cell {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 307px;
+    height: 329px;
+    background: #23252B;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+}
+.cell:hover{
+    background: linear-gradient(133.27deg, #23252B 3%, #17191D 98.83%);
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.43);
+    cursor: pointer;
+    transition: all .6s;
+    transform: scale(1.05);
+    filter: contrast(110%) brightness(110%) saturate(150%);
+    }
+.boxImgCreat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;   
+    margin: 15px 15px auto; 
+    border-radius: 50px;
+    background: #000000;
+    box-shadow: 3px -2px 13px 1px rgb(35 35 35);
+}
+.boxImgCreat:hover{
+    background: #191B20;
+    box-shadow: inset -4px 4px 15px rgba(255, 1, 79, 0.5);
+    }
+.imgCreat {    
+    height: auto;
+    width: auto;
+    margin-top: 1px;
+    margin-left: 1px;     
+}
+.rowCellTxt{
+margin-left: 10px;
+width: 292px;
+
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #C4C4C4;
+}
+.rowCell{
+font-weight: 500;
+font-size: 30px;
+margin-left: 10px;
+color: #C4C4C4;
+}
+.rowCell:hover{
+    color: $main-color;
+}
+.rowCellBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin: -15px 15px 15px 0;   
+}
+.btnCreat{
+    background: #23252B;
+    box-sizing: border-box;
+    height: 40px;
+    min-width: 40px;
+    border: 1px solid $main-color;    
+    border-radius: 10px;
+    color: aliceblue;
+    fill:$main-color;    
+}
+.btnCreat:hover{
+    background-color: $main-color; 
+    fill:rgb(255, 255, 255);
+}
+

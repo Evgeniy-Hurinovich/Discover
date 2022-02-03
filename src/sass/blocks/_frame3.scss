@@ -1,0 +1,131 @@
+//-------Trending In Category-------------------------
+.trending{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;  
+    text-transform: capitalize;
+}
+.btnTreiding{
+width: 195px;
+height: 55px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.tiles1{
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+.item2 {
+    width: 306px;
+    height: 306px;
+    display: flex;
+    position: relative;
+    justify-content: center;      
+    margin-bottom: 30px;    
+    z-index: 1;
+    }
+.boxImg1{
+    position: absolute;    
+}
+.imgTreid1{
+width: 100%;
+margin-top: 34px;
+}
+.boxImg2{
+    position: absolute;
+    width: 290px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;    
+    margin-top: 140px;    
+}
+.boxRight:hover {
+    border-radius: 50px;
+    background: radial-gradient(farthest-side ellipse at top left,#cf08088c, #cf08088c) ;
+    box-shadow: 0px 0px 25px rgba(207, 8, 8, 1);
+    
+}
+.boxLeft:hover {
+    border-radius: 50px;
+    background: radial-gradient(farthest-side ellipse at top left,#cf08088c, #cf08088c) ;
+    box-shadow: 0px 0px 25px rgba(207, 8, 8, 1);
+    }
+
+.imgTreid2{    
+    width: 100%;
+    margin-top: 125px;
+    }
+.imgTreidPiople{
+position: absolute;
+height: 100px;
+width: 100px;
+margin-top: 1px;
+margin-left: 1px;
+border-radius: 50px;
+object-fit: cover;	
+}
+.imgTreidPiople:hover {
+    border-radius: 50px;
+    background: radial-gradient(farthest-side ellipse at top left,#cf08088c, #cf08088c) ;
+    box-shadow: 0px 0px 25px rgba(207, 8, 8, 1);
+    }
+
+.boxImgTreid{
+    position: absolute;
+    height: 102px;
+    width: 102px;
+    margin-top: 259px;
+    margin-left: 6px;
+    border-radius: 50px;    
+    z-index: 2;
+    background: linear-gradient(-0.73deg, #23252bd8 -61%, #7e0d0daf 123.83%);
+}
+.boxMuar{
+display: flex;
+position: absolute;
+width: 150px;
+height: 96px;
+background: #7E0D0D;
+filter: blur(50px);
+margin-top: 261px;
+margin-left: 82px;
+}
+
+.treidInfoNoAtiv{
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color:  #C4C4C4;
+    margin-top: 368px;
+    margin-left: 10px;
+    width: 300px;
+    justify-content: space-around;
+}
+.treidNoActivTxt:hover {
+        color: rgba(255, 1, 79, 1);
+    }
+
+
+    .treidInfoNoActiv1{
+        position: absolute;
+        font-size: 20px;
+        color: #C4C4C4;
+        margin-top: 400px;
+        margin-left: 85px;
+        &:hover {
+            color: #00ACEE;
+            }
+    }
+span {
+    color: #FFFFFF;
+}
+.itemTreiding{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 110px; 
+}
